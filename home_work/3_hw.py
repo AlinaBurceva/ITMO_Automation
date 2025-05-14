@@ -70,7 +70,7 @@ def day_cnt(year_cnt: int, month_cnt: int):
         if year_cnt < 0:
             print('Кол-во лет должно быть >= 0')
         if  month_cnt < 0:
-            print('Кол-во месяцев должно быть >= 1')
+            print('Кол-во месяцев должно быть >= 0')
 
 
 day_cnt(1,0)
